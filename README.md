@@ -1,24 +1,35 @@
-Instrucciones de Instalación
+# Instrucciones de Instalación
+
 A continuación, se detallan los pasos para configurar el proyecto en tu entorno local.
 
-1_Verificar la versión de Python
-Este proyecto utiliza Python 3.12.5. Asegúrate de tener instalada esta versión o una compatible.
+```bash
+# 1. Verificar la versión de Python
+# Este proyecto utiliza Python 3.12.5. Asegúrate de tener instalada esta versión o una compatible.
+# Para verificar la versión instalada, abre una terminal y ejecuta:
+python --version
 
-2_Clonar el repositorio
-Clona el repositorio en tu máquina local con el siguiente comando:
+# 2. Clonar el repositorio
+# Clona el repositorio en tu máquina local con el siguiente comando en la terminal:
 git clone https://github.com/RamiroOrtiz02/PracticoEspecialGrupo14
 
-3_Crear un entorno virtual
-Dirígete a la carpeta del repositorio clonado, luego, crea un entorno virtual dentro de esta carpeta ejecutando:
-python -m venv <nombre del repositorio>
+# 3. Entrar en la carpeta del repositorio
+# Una vez clonado, navega hasta la carpeta del repositorio:
+cd PracticoEspecialGrupo14
 
-4_Activar el entorno virtual, con el siguiente comando: 
+# 4. Crear un entorno virtual
+# Dentro de la carpeta del repositorio, crea un entorno virtual ejecutando:
+python -m venv venv
+
+# 5. Activar el entorno virtual
+# En Windows, ejecuta en la terminal:
 .\venv\Scripts\activate
 
-5_Instalar las dependencias
-Con el entorno virtual activo, instala las librerías requeridas con el siguiente comando:
+# En macOS y Linux, ejecuta:
+source venv/bin/activate
+
+# 6. Instalar las dependencias
+# Con el entorno virtual activo y ubicado en la carpeta del repositorio, instala las librerías requeridas con:
 pip install -r requirements.txt
 
-6_Acceder al proyecto
-Una vez completados estos pasos, el entorno estará listo, y podrás ejecutar el proyecto o sus scripts.
-
+# 7. Acceder al proyecto
+# Una vez completados estos pasos, el entorno estará listo, y podrás ejecutar el proyecto o sus scripts.
