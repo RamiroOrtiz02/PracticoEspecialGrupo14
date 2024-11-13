@@ -1,5 +1,6 @@
 Instrucciones de Instalación
 A continuación, se detallan los pasos para configurar el proyecto en tu entorno local.
+
 1_Verificar la versión de Python
 Este proyecto utiliza Python 3.12.5. Asegúrate de tener instalada esta versión o una compatible.
 
